@@ -1,19 +1,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: react-app
+  name: react
 spec:
   replicas: 3
   selector:
     matchLabels:
-      app: react-app
+      app: react
   template:
     metadata:
       labels:
-        app: react-app
+        app: react
     spec:
       containers:
-        - name: react-app
+        - name: react
           image: yankogp/final_Project:ab434f4916c15bedcd347dd5199c98d0ee9c9889
           imagePullPolicy: Always
           ports:
