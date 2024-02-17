@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: react
-          image: yankogp/final_Project:ab434f4916c15bedcd347dd5199c98d0ee9c9889
+          image: yankogp/final_project:d05ebdebad8692037cfbf0707e9d619f13af16fb
           imagePullPolicy: Always
           ports:
             - containerPort: 80
